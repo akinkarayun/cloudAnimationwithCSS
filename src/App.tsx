@@ -1,26 +1,34 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import "./App.css"
 
 function App() {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container">
+      <div className="cloud"></div>
+      <div className="rain">
+        <span className='spanone'></span>
+        <span className='spantwo'></span>
+        <span className='spanthree'></span>
+        <span className='spanfour'></span>
+        <span className='spaneight'></span>
+        <span className='spanfive'></span>
+        <span className='spanfour'></span>
+        <span className='spanthree'></span>
+        <span className='spanseven'></span>
+        <span className='spanone'></span>
+        <span className='spanfour'></span>
+        <span className='spansix'></span>
+        <span className="spanone"></span>
+        <span className="spanten"></span>
+        <span className="spanthree"></span>
+        <span className="spantwo"></span>
+        <span className="spanfive"></span>
+        <span className="spanten"></span>
+        <span className="spantwo"></span>
+        <span className="spannine"></span>
+      </div>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
